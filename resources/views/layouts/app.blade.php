@@ -199,21 +199,7 @@
                 </ul>
             </div>
           
-            <div>
-                <h4 class="font-bold mb-4">İletişim</h4>
-                <ul class="space-y-3 text-sm text-gray-500">
-
-                    <li class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#FF6B00]" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                        hanificorak@outlook.com
-                    </li>
-
-                </ul>
-            </div>
+         
         </div>
         <div class="border-t border-gray-100 pt-6 flex items-center justify-between text-sm text-gray-400">
             <span>© 2026 MyWerker. Tüm hakları saklıdır.</span>
