@@ -21,30 +21,11 @@
         content="{{ $ogDescription ?? ($metaDescription ?? 'İş ilanı oluşturun, teklifleri alın, en iyi ustayı seçin.') }}" />
     <title>{{ $pageTitle ?? 'MyWerker - Evinizdeki Sorunlara Profesyonel Çözümler' }}</title>
     @stack('head')
-    <script src="/tailwind.js?ver=1"></script>
+    @vite('resources/css/app.css')
     <link rel="preload" href="/customfont.css?ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
         <link href="/customfont.css?ver=1" rel="stylesheet" />
     </noscript>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        orange: {
-                            DEFAULT: "#FF6B00",
-                            light: "#FF8C00",
-                            dark: "#E05A00",
-                        },
-                        dark: "#111827",
-                    },
-                    fontFamily: {
-                        sans: ["Inter", "sans-serif"]
-                    },
-                },
-            },
-        };
-    </script>
     <style>
         body {
             font-family: "Inter", sans-serif;
