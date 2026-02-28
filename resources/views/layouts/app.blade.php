@@ -21,7 +21,7 @@
         content="{{ $ogDescription ?? ($metaDescription ?? 'İş ilanı oluşturun, teklifleri alın, en iyi ustayı seçin.') }}" />
     <title>{{ $pageTitle ?? 'MyWerker - Evinizdeki Sorunlara Profesyonel Çözümler' }}</title>
     @stack('head')
-    <script src="/tailwind.js?ver=1"></script>
+    <script src="/tailwind.js?ver=1" defer></script>
     <link rel="preload" href="/customfont.css?ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
         <link href="/customfont.css?ver=1" rel="stylesheet" />
