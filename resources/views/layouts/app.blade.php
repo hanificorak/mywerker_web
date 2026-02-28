@@ -134,7 +134,7 @@
     @include('layouts.navbar')
     @yield('content')
     <footer class="bg-white border-t border-gray-100 pt-14 pb-8">
-    <div class="max-w-7xl mx-auto px-8">
+    <div class="max-w-7xl mx-auto px-8 w-full">
         <div class="grid grid-cols-4 gap-12 mb-12">
             <div>
                 <div class="flex items-center gap-2 mb-4">
