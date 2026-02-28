@@ -34,7 +34,7 @@
         <a href="{{ route('home') }}"
             class="group flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 shadow-sm transition hover:border-slate-300 hover:shadow"
             aria-label="MyWerker ana sayfa">
-            <img src="{{ asset('images/my_werker.jpg') }}" alt="MyWerker" class="h-11 w-auto rounded-xl object-contain"
+            <img src="{{ asset('images/brand/my_werker_160.webp') }}" alt="MyWerker" class="h-11 w-auto rounded-xl object-contain"
                 loading="eager"
                 onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');" />
             <span class="hidden rounded-md bg-slate-900 px-2.5 py-2 text-sm font-bold tracking-wide text-white">MW</span>

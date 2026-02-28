@@ -46,11 +46,14 @@
     <figure class="relative overflow-hidden rounded-xl border border-slate-300 bg-white p-3 shadow-sm">
         <div class="relative overflow-hidden rounded-lg">
             <img
-                src="/images/home/mywerker_home_myerker.webp"
+                src="/images/home/responsive/mywerker_home_1100.webp"
+                srcset="/images/home/responsive/mywerker_home_700.webp 700w, /images/home/responsive/mywerker_home_1100.webp 1100w, /images/home/mywerker_home_myerker.webp 2176w"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 alt="MyWerker ile ev tamiratı ve tadilat işlerinde çalışan onaylı usta"
                 width="600"
                 height="384"
-                loading="lazy"
+                loading="eager"
+                fetchpriority="high"
                 class="h-[420px] w-full object-cover object-top"
             />
             <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/85 via-slate-900/35 to-transparent p-6">
