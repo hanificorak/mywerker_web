@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="{{ $canonicalUrl ?? url()->current() }}" />
     <meta name="description"
         content="{{ $metaDescription ?? 'MyWerker ile evinizdeki tamirat, tadilat ve dekorasyon işleriniz için ücretsiz ilan oluşturun. Onaylı ustalardan teklif alın, en uygun profesyoneli seçin. Türkiye\'nin güvenilir usta platformu.' }}" />
@@ -21,7 +21,7 @@
         content="{{ $ogDescription ?? ($metaDescription ?? 'İş ilanı oluşturun, teklifleri alın, en iyi ustayı seçin.') }}" />
     <title>{{ $pageTitle ?? 'MyWerker - Evinizdeki Sorunlara Profesyonel Çözümler' }}</title>
     @stack('head')
-    <script src="/tailwind.js?ver=1" ></script>
+    <script src="/tailwind.js?ver=1"></script>
     <link rel="preload" href="/customfont.css?ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
         <link href="/customfont.css?ver=1" rel="stylesheet" />
