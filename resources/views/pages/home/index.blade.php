@@ -82,11 +82,11 @@
                 kolayca halledin.
             </p>
             <nav class="flex items-center justify-center gap-4 flex-wrap" aria-label="Kayıt ve ilan aksiyonları">
-                <a href="#"
+                <a href="{{route('waiting')}}"
                     class="bg-[#FF6B00] text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-[#e05a00] transition inline-block">
                     Ücretsiz İlan Ver
                 </a>
-                <a href="#"
+                <a href="{{route('waiting')}}"
                     class="border border-gray-600 text-white px-8 py-3.5 rounded-xl font-semibold hover:border-gray-400 transition inline-block">
                     Usta Olarak Kaydol
                 </a>

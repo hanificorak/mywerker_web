@@ -17,4 +17,5 @@ Route::get('/services/{service}', [ServicesController::class, 'show'])->name('se
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/blog/{blog}/{slug?}', [BlogController::class, 'show'])->name('blog.show');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/waiting', [WaitingController::class, 'index'])->name('waiting');

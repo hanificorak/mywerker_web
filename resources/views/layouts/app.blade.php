@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="{{ $canonicalUrl ?? url()->current() }}" />
     <meta name="description"
@@ -26,6 +27,8 @@
     <noscript>
         <link href="/customfont.css?ver=1" rel="stylesheet" />
     </noscript>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -120,9 +123,7 @@
 <body class="bg-white text-gray-900">
     @include('layouts.navbar')
     @yield('content')
-</body>
-
-<footer class="bg-white border-t border-gray-100 pt-14 pb-8">
+    <footer class="bg-white border-t border-gray-100 pt-14 pb-8">
     <div class="max-w-7xl mx-auto px-8">
         <div class="grid grid-cols-4 gap-12 mb-12">
             <div>
@@ -232,7 +233,6 @@
         </div>
     </div>
 </footer>
-
 </body>
 
 </html>
