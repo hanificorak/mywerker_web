@@ -6,9 +6,11 @@ use App\Http\Controllers\Home\HomeController;
 use App\Http\Controllers\Home\HowItWorksController;
 use App\Http\Controllers\Home\ServicesController;
 use App\Http\Controllers\Home\WaitingController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/how-it-works', [HowItWorksController::class, 'index'])->name('howitworks');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/services/{service}', [ServicesController::class, 'show'])->name('services.show');

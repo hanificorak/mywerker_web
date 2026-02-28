@@ -22,7 +22,10 @@
     <title>{{ $pageTitle ?? 'MyWerker - Evinizdeki Sorunlara Profesyonel Çözümler' }}</title>
     @stack('head')
     <script src="/tailwind.js?ver=1"></script>
-    <link href="/customfont.css?ver=1" rel="stylesheet" />
+    <link rel="preload" href="/customfont.css?ver=1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link href="/customfont.css?ver=1" rel="stylesheet" />
+    </noscript>
     <script>
         tailwind.config = {
             theme: {
