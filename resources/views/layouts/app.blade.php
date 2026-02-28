@@ -198,26 +198,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h4 class="font-bold mb-4">Hizmetler</h4>
-                <ul class="space-y-2 text-sm text-gray-500">
-                    <li>
-                        <a href="#" class="hover:text-gray-900">Boya & Badana</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-900">Elektrik Tesisatı</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-900">Temizlik</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-900">Nakliyat</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-gray-900">Tadilat</a>
-                    </li>
-                </ul>
-            </div>
+          
             <div>
                 <h4 class="font-bold mb-4">İletişim</h4>
                 <ul class="space-y-3 text-sm text-gray-500">
