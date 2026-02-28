@@ -29,6 +29,16 @@
     </noscript>
 
     <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CSLS1KWD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6CSLS1KWD2');
+</script>
     <style>
         body {
             font-family: "Inter", sans-serif;
