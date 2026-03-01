@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
+Route::get('/sitemapv1.xml', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/how-it-works', [HowItWorksController::class, 'index'])->name('howitworks');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/services/{service}', [ServicesController::class, 'show'])->name('services.show');
